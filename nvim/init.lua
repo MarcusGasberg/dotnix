@@ -19,6 +19,8 @@ end
 -- Search down into subfolders
 opt.path = vim.o.path .. '**'
 
+vim.cmd[[colorscheme retrobox]]
+
 opt.number = true
 opt.relativenumber = true
 opt.cursorline = true
